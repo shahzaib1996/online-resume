@@ -32,7 +32,8 @@
       
       .linkbox {
         background: transparent;
-        height: 40px;
+        height: 0px;
+        overflow:hidden;
         margin-top: 10px;
 
       }
@@ -52,10 +53,12 @@
   <script type="text/javascript">
       
       function animateTop() {
+
+
     
       $(".andarwala").animate({height: '60px'});
+      $(".linkbox").animate({height: '60px'});
 
-      
 
       }
 
